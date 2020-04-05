@@ -5,7 +5,7 @@ const MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/mongo_workshop';
 
 describe('Mongo Exercises collection', function main() {
-  this.timeout(12000);
+  this.timeout(15000);
   this.slow(4000);
 
   beforeEach(() => {
